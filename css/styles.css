@@ -1,0 +1,265 @@
+/* 0. Estilos Gerais e Rese*/
+/*1. Container*/
+/*2. Aside*/
+/*3. Main*/
+/*4. Bem vindo Section*/
+/*5. Sobre Section*/
+/*6. Doces-1 Section*/
+/*7. Doces-2 Section*/
+/*8. Doces-3 Section*/
+/*9. Contato Section*/
+/*10. Footer*/
+
+/**/
+/* 0.Estilos Gerais e Reset */
+/**/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.center-img {
+    background-size: cover;     /*a imagem se adapta ao tamanho da div*/
+    background-position: center;
+    display: block;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+
+a:hover {
+    color: gold;
+}
+
+/**/
+/* 1.Container */
+/**/
+
+#container {
+     display: flex;
+     flex-direction: row;
+ }
+
+/**/
+/* 2.Aside */
+/**/
+
+.aside {
+    margin-right: 285px;
+}
+
+.aside-c {
+    height: 100%;
+    background-color: red;
+    padding: 40px;
+    margin: 0 auto;
+    position: fixed;    
+}
+
+.img-logo {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#doceria-c__titulo {
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+
+.nav-coluna__list {
+    list-style: none;
+}
+
+.nav-coluna__itens {
+    margin: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/**/
+/* 3. Main */
+/**/
+
+.img-banner {
+    width: calc(100% + 20%);
+}
+
+.banner-logo {
+    width: 100%;
+    height: 520px;
+    background-size: cover;     /*a imagem se adapta ao tamanho da div*/
+    background-position: center;
+    display: block;
+}
+
+/**/
+/* 4. Bem vindo Section */
+/**/
+
+.bemvindo__descricao {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    align-items: center;
+}
+
+.section-img {
+    flex: 1 1 200px;
+}
+
+/**/
+/* 5. Sobre Section */
+/**/
+
+.teste {
+    flex: 6 1 300px;
+    margin-left: 10px;
+    margin-top: 15px;
+    line-height: 25px;
+    
+}
+
+.section__titulo {
+    color: dodgerblue;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+
+#section__img__bemvindo {
+    width: 280px;
+    margin: 20px 0 0 10px;   
+}
+
+/**/
+/* 6. Doces-1 Section */
+/**/
+
+.galeria-c {
+    max-width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.galeria-1__img {
+    width: 160px;
+    margin: 10px 10px;
+}
+
+/**/
+/* 7. Doces-2 Section */
+/**/
+
+.galeria-2__img {
+    width: 250px;
+    margin: 10px 10px;
+}
+
+/**/
+/* 8. Doces-3 Section */
+/**/
+
+.galeria-3__img {
+    width: 200px;
+    margin: 10px 10px;
+}
+
+/**/
+/* 9. Contato Section */
+/**/
+
+form {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input {
+    border: 1px solid red;
+    width: 250px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    outline: none;
+}
+
+input::placeholder {
+    color: red;
+}
+
+button {
+    background-color: red;
+    padding: 10px;
+    font-size: 1rem;
+    color: white;
+    font-weight: bold;
+    border: none;
+    width: 200px;
+    margin-bottom: 30px;
+}
+
+textarea {
+    border: 1px solid red;
+    margin-bottom: 20px;
+}
+
+textarea::placeholder {
+    padding: 10px;
+    color: red;
+    font-size: 1rem;
+}
+
+/**/
+/* 10. Footer */
+/**/
+footer p {
+    text-align: center;
+    font-weight: 300;
+    
+}
+
+#portfolio {
+    color: red;
+    font-weight: bold;
+}
+
+
+/*Media query*/
+
+@media (max-width: 883px) {
+   .bemvindo__descricao {
+      text-align: justify;
+      justify-content: center;
+   }        
+}
+
+
+
+
+
+
+
+
+
+
+/* Color Theme Swatches in Hex 
+.My-Color-Theme-1-hex { color: #F6F2F7; }
+.My-Color-Theme-5-hex { color: #BD0601; }
+.My-Color-Theme-1-hex { color: #C26520; }
+.My-Color-Theme-3-hex { color: #FAC13E; }
+.My-Color-Theme-2-hex { color: #948F34; }
+*/
+
