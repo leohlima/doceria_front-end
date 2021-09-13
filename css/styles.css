@@ -209,6 +209,13 @@ button {
     border: none;
     width: 200px;
     margin-bottom: 30px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+button:hover {
+    background-color: dodgerblue;
+    color: blue;
 }
 
 textarea {
